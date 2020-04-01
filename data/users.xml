@@ -1,0 +1,44 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<root>
+    <users>
+        <user id="1" major="true">
+            <login>admin</login>
+            <password crypt="8">admin</password>
+            <mail>ad@mail</mail>
+            <adress>
+                <number>25</number>
+                <street>A</street>
+                <city country="fr">
+                    <name>Paris</name>
+                </city>
+            </adress>
+            <age>48</age>
+        </user>
+        <user id="2" major="true">
+            <login>john</login>
+            <password crypt="8">submarine</password>
+            <mail>jo@mail</mail>
+            <adress>
+                <number>10</number>
+                <street>B</street>
+                <city country="uk">
+                    <name>London</name>
+                </city>
+            </adress>
+            <age>36</age>
+        </user>
+        <user id="3" major="false">
+            <login>thomas</login>
+            <password crypt="3">tr4in</password>
+            <mail>tho@mail</mail>
+            <adress>
+                <number>71</number>
+                <street>C</street>
+                <city country="fr">
+                    <name>tuville</name>
+                </city>
+            </adress>
+            <age>13</age>
+        </user>
+    </users>
+</root>

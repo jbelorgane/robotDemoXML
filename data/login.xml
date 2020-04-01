@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<root>
+    <users>
+        <user id="1">
+            <login>admin</login>
+            <password>admin</password>
+        </user>
+        <user id="2">
+            <login>john</login>
+            <password>submarine</password>
+        </user>
+        <user id="3">
+            <login>thomas</login>
+            <password>tr4in</password>
+        </user>
+    </users>
+</root>
