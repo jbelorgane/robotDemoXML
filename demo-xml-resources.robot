@@ -1,2 +1,2 @@
 *** Settings ***
-Resource        resources/xml.robot
+Resource        ${CURDIR}${/}resources/xml.robot

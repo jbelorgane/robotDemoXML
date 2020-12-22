@@ -3,8 +3,8 @@ Library              XML
 Documentation        This file contains all operations used on the xml files
 
 *** Variables ***
-${XML_FILE}                          data/users.xml
-${XML_FILE2}                         data/login.xml
+${XML_FILE}                          ${CURDIR}/../data/users.xml
+${XML_FILE2}                         ${CURDIR}/../data/login.xml
 ${DEFAULT_PASSWORD}                  d3faultp4ss
 
 *** Keywords ***
@@ -47,8 +47,8 @@ Add New User
     Should Be Equal As Integers      ${nbUser}                4
 
 Create New Users List    
-    Save Xml                         ${xml}                   data/users2.xml
-    Set Suite Variable               ${XML_FILE}              data/users2.xml
+    Save Xml                         ${xml}                   ${CURDIR}/../data/users2.xml
+    Set Suite Variable               ${XML_FILE}              ${CURDIR}/../data/users2.xml
     
 
 
@@ -84,7 +84,7 @@ Set New Password
     Element Text Should Be           ${xml}                  ${DEFAULT_PASSWORD}                    xpath=*/user[@id="${id}"]/newpass
     
 Save Last List    
-    Save Xml                         ${xml}                  data/users3.xml
+    Save Xml                         ${xml}                  ${CURDIR}/../data/users3.xml
     
 
 
