@@ -40,7 +40,10 @@ User changes his password
     Then the password has been changed
     And the old password disappeared
 
-    
+Skipped test
+    Skip
+    [Teardown]    NONE
+
 *** Keywords ***
 A user has valid credentials
     Create new user     &{USER}
